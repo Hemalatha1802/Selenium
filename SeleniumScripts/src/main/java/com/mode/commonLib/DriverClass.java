@@ -12,8 +12,6 @@ public class DriverClass {
 	
 	
 	
-	
-	
 	//To Launch browser
 	public  void launchBrowser() {
 		
@@ -35,11 +33,11 @@ public class DriverClass {
 			options.addArguments("disable-infobars");
 			options.addArguments("--disable-extensions"); 
 			
-			System.setProperty("webdriver.chrome.driver", "\\Selenium\\Framework\\SeleniumScripts\\Resources\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Hemalatha\\.jenkins\\workspace\\Git_Selenium\\SeleniumScripts\\Resources\\chromedriver.exe");
 			driver = new ChromeDriver(options);
 			} 
 		else if (PropertiesClass.browser.equalsIgnoreCase("ie")) {
-			System.setProperty("webdriver.ie.driver", "\\SeleniumScripts\\Resources\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "C:\\Users\\Hemalatha\\.jenkins\\workspace\\Git_Selenium\\SeleniumScripts\\Resources\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 		} 
 		

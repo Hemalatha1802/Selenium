@@ -44,9 +44,9 @@
 						<suiteXmlFile>./TestScripts/globalConfiguration/messageTemplate.xml</suiteXmlFile>
 						<suiteXmlFile>./TestScripts/globalConfiguration/permission.xml</suiteXmlFile>
 						<suiteXmlFile>./TestScripts/globalConfiguration/interfacePermission.xml</suiteXmlFile>
-						<suiteXmlFile>./TestScripts/globalConfiguration/currency.xml</suiteXmlFile>
+						<suiteXmlFile>./TestScripts/globalConfiguration/currency.xml</suiteXmlFile>-->
 						<suiteXmlFile>./TestScripts/dbDeletion.xml</suiteXmlFile>
-						<suiteXmlFile>./TestScripts/profile.xml</suiteXmlFile> -->
+						<!--  <suiteXmlFile>./TestScripts/profile.xml</suiteXmlFile> -->
 
 					</suiteXmlFiles>
 				</configuration>
